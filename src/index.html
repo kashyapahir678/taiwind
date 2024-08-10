@@ -12,87 +12,85 @@
 </head>
 
 <body class="bg-black">
-    <!-- <h1 class="text-red-800 tablet:bg-black laptop:bg-pink-800">hello</h1> -->
 
-    <!-- <div class="container">
-        <div class="card laptop:bg-red-200 tablet:bg-green-200 desktop:bg-yellow-200">
-            <img class="w-full cursor-pointer" src="https://v1.tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">This is image</div>
-              <p class="text-gray-700">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-              </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-                <button class="btn">Click</button>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="container mx-auto bg-slate-200">
-        <div class="flex items-start justify-between bg-black text-white">
+    <div class="container mx-auto bg-slate-200 ">
+        <div class="flex items-start justify-center bg-black text-white p-2 laptop:p-0 ">
             <!-- columns 1 -->
-            <div class="border-r-2 border-gray-800 grow-[1] sticky top-0">
-                <div class="p-[12px]">
-                    <img class=" mx-4 py-2 px-2 max-h-16 w-auto"
+            <div class="border-r-2 border-gray-800 laptop:min-w-[250px] min-w-[80px] sticky top-0">
+                <div class="p-[12px] w-fit">
+                    <img class="py-2 px-2 laptop:max-h-16 max-h-[3.5rem] w-auto laptop:mx-4 "
                         src="https://img.freepik.com/premium-vector/twitter-new-logo-twitter-icons-new-twitter-logo-x-2023_929078-218.jpg"
                         alt="">
                 </div>
-                <div>
-                    <ul class="flex flex-col">
-                        <li class="p-[12px]"><a
+                <div class="w-fit">
+                    <ul class="flex flex-col laptop:items-start items-center">
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-solid fa-house"></i>Home</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-solid fa-house"></i><span
+                                    class="hidden laptop:inline-block">Home</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-solid fa-magnifying-glass"></i>Explore</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-solid fa-magnifying-glass"></i><span
+                                    class="hidden laptop:inline-block">Explore</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-solid fa-bell"></i>Notifications</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-solid fa-bell"></i><span
+                                    class="hidden laptop:inline-block">Notifications</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-solid fa-message"></i>Message</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-solid fa-message"></i><span
+                                    class="hidden laptop:inline-block">Message</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-solid fa-house"></i>Grok</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-solid fa-house"></i><span
+                                    class="hidden laptop:inline-block">Grok</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-regular fa-bookmark"></i>Bookmarks</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-regular fa-bookmark"></i><span
+                                    class="hidden laptop:inline-block">Bookmarks</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-solid fa-users"></i>Communities</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-solid fa-users"></i><span
+                                    class="hidden laptop:inline-block">Communities</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-brands fa-x-twitter"></i>Premium</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-brands fa-x-twitter"></i><span
+                                    class="hidden laptop:inline-block">Premium</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-solid fa-user"></i>Profile</a></li>
-                        <li class="p-[12px]"><a
+                                href=""><i class=" mx-4 fa-solid fa-user"></i><span
+                                    class="hidden laptop:inline-block">Profile</span></a></li>
+                        <li class="p-[12px] w-fit"><a
                                 class="hover:bg-gray-700 hover:rounded-full pl-0 font-medium text-lg py-2 px-4"
-                                href=""><i class=" mx-4 fa-solid fa-ellipsis"></i>More</a></li>
-                        <li class="p-[12px]"><a class="pl-0 font-medium text-lg py-2 px-4" href=""><button
+                                href=""><i class=" mx-4 fa-solid fa-ellipsis"></i><span
+                                    class="hidden laptop:inline-block">More</span></a></li>
+                        <li class="p-[12px] laptop:inline-block hidden"><a class="pl-0 font-medium text-lg py-2 px-4" href=""><button
                                     class="text-white bg-blue-500 py-2 px-12 rounded-full text-sm text-b">Post</button></a>
+                        </li>
+                        <li class="p-[12px] inline-block laptop:hidden"><a class="pl-0 font-medium text-lg py-2 px-4 " href=""><i class="text-white bg-blue-500 py-3 px-3 rounded-full text-sm text-b fa-solid fa-pencil"></i></a>
                         </li>
                     </ul>
                 </div>
-                <div class="flex items-center">
-                    <div>
-                        <img class="mx-4 py-2 px-2 max-h-12 w-auto rounded-full"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuu29ipdMVp9QU7DYee9kXXV66Ba6cVzB3aQ&s"
-                            alt="">
-                    </div>
-                    <div>
-                        <h2 class="text-lg font-medium">none</h2>
-                        <p class="text-gray-400 text-sm">@none8956</p>
-                    </div>
-                    <div>
-                        <i class=" mx-4 fa-solid fa-ellipsis"></i>
+                <div class="flex items-center mt-[3.25rem] laptop:m-0">
+                    <div class="flex">
+                        <div>
+                            <img class="mx-4 py-2 px-2 max-h-12 w-auto rounded-full"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuu29ipdMVp9QU7DYee9kXXV66Ba6cVzB3aQ&s"
+                                alt="">
+                        </div>
+                        <div class="hidden laptop:inline-block">
+                            <h2 class="text-lg font-medium">none</h2>
+                            <p class="text-gray-400 text-sm">@none8956</p>
+                        </div>
+                        <div class="hidden laptop:inline-block">
+                            <i class=" mx-4 fa-solid fa-ellipsis"></i>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- columns 2 -->
-            <div class="border-r-2  grow-[2]">
+            <div class="border-r-2  max-w-[500px] ">
                 <!-- <div class="w-full flex items-center px-2 py-2">
                     <div class="w-full">
                         <input class="bg-gray-400 rounded-full py-2 w-full" placeholder="Serach" type="text">
@@ -146,14 +144,14 @@
 
                     <div class="flex border-b-2 border-gray-800 my-4">
                         <div class="m-2">
-                            <img class="max-h-[5rem] w-auto rounded-full"
+                            <img class="max-h-[10rem] w-auto rounded-full tablet:max-h-[8rem]"
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuu29ipdMVp9QU7DYee9kXXV66Ba6cVzB3aQ&s"
                                 alt="">
                         </div>
                         <div>
-                            <div class="flex">
+                            <div class="flex justify-between tablet:justify-start">
                                 <h2 class="mx-2 text-white font-semibold">joe Biden</h2>
-                                <p class="mx-2 text-slate-400">@JoeBiden . </p>
+                                <div class="hidden tablet:block"><p class="mx-2 text-slate-400">@JoeBiden . </p></div>
                                 <span class="mx-2 text-slate-400">Nov 7</span>
                             </div>
                             <div class="m-2">
@@ -178,14 +176,14 @@
 
                     <div class="flex border-b-2 border-gray-800 my-4">
                         <div class="m-2">
-                            <img class="max-h-[5rem] w-auto rounded-full"
+                            <img class="max-h-[10rem] w-auto rounded-full tablet:max-h-[8rem]"
                                 src="https://play-lh.googleusercontent.com/7Ak4Ye7wNUtheIvSKnVgGL_OIZWjGPZNV6TP_3XLxHC-sDHLSE45aDg41dFNmL5COA"
                                 alt="">
                         </div>
                         <div>
-                            <div class="flex">
+                            <div class="flex justify-between tablet:justify-start">
                                 <h2 class="mx-2 text-white font-semibold">Hellen Brown</h2>
-                                <p class="mx-2 text-slate-400">@hellbrowb4950 . </p>
+                                <div class="hidden tablet:block"><p class="mx-2 text-slate-400">@hellbrowb4950 . </p></div>
                                 <span class="mx-2 text-slate-400">Feb 27</span>
                             </div>
                             <div class="m-2">
@@ -210,14 +208,14 @@
 
                     <div class="flex">
                         <div class="m-2">
-                            <img class="rounded-full max-h-[7rem] w-auto"
+                            <img class="max-h-[10rem] w-auto rounded-full tablet:max-h-[8rem]"
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Pcox3tm6LoiCplW6CIU_h4hVC-swvm_vkg&s"
                                 alt="">
                         </div>
                         <div>
-                            <div class="flex">
+                            <div class="flex justify-between tablet:justify-start">
                                 <h2 class="mx-2 text-white font-semibold">PMO India</h2>
-                                <p class="mx-2 text-slate-400">@PMOindia . </p>
+                                <div class="hidden tablet:block"><p class="mx-2 text-slate-400">@PMOindia . </p></div>
                                 <span class="mx-2 text-slate-400">Oct 20</span>
                             </div>
                             <div class="m-2">
@@ -245,18 +243,18 @@
 
             <!-- columns 3 -->
 
-            <div class="border-r-2 border-gray-800 grow-[1.5] sticky top-0">
+            <div class="border-r-2 border-gray-800 min-w-[300px] sticky top-0 laptop:inline-block hidden">
                 <div class=" bg-black text-white border border-gray-800 pl-4 m-4">
                     <h1 class="font-bold">Who to follow</h1>
                     <div class="flex items-center my-4 hover:bg-gray-600 p-2 ">
                         <div>
                             <img class="max-h-12 w-auto rounded-full"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuu29ipdMVp9QU7DYee9kXXV66Ba6cVzB3aQ&s"
+                                src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/319900/319946.png"
                                 alt="">
                         </div>
-                        <div class="mx-4">
-                            <h3 class="font-bold">PMO India</h3>
-                            <p class="text-slate-400 text-sm">@PMOIndia</p>
+                        <div class="mx-3 cursor-pointer">
+                            <h3 class="font-bold text-sm">Ms Dhoni</h3>
+                            <p class="text-slate-400 text-xs">@Ms007</p>
                         </div>
                         <div>
                             <button class="bg-white text-black px-4 py-1 rounded-full">Follow</button>
@@ -266,12 +264,12 @@
                     <div class="flex items-center my-4 hover:bg-gray-600 p-2 ">
                         <div>
                             <img class="max-h-12 w-auto rounded-full"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuu29ipdMVp9QU7DYee9kXXV66Ba6cVzB3aQ&s"
+                                src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/316600/316605.png"
                                 alt="">
                         </div>
-                        <div class="mx-4">
-                            <h3 class="font-bold">Virat kohli</h3>
-                            <p class="text-slate-400 text-sm">@PMOIndia</p>
+                        <div class="mx-3 cursor-pointer">
+                            <h3 class="font-bold text-sm">Virat kohli</h3>
+                            <p class="text-slate-400 text-xs">@ViratKohli</p>
                         </div>
                         <div>
                             <button class="bg-white text-black px-4 py-1 rounded-full">Follow</button>
@@ -281,12 +279,12 @@
                     <div class="flex items-center my-4 hover:bg-gray-600 p-2 ">
                         <div>
                             <img class="max-h-12 w-auto rounded-full"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuu29ipdMVp9QU7DYee9kXXV66Ba6cVzB3aQ&s"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Pcox3tm6LoiCplW6CIU_h4hVC-swvm_vkg&s"
                                 alt="">
                         </div>
-                        <div class="mx-4">
-                            <h3 class="font-bold"></h3>
-                            <p class="text-slate-400 text-sm">@PMOIndia</p>
+                        <div class="mx-3 cursor-pointer">
+                            <h3 class="font-bold text-sm">PMO India</h3>
+                            <p class="text-slate-400 text-xs">@PMOIndia</p>
                         </div>
                         <div>
                             <button class="bg-white text-black px-4 py-1 rounded-full">Follow</button>
